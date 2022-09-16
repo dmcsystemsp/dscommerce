@@ -49,6 +49,7 @@ public class User {
         this.name = name;
     }
 
+    @Column(unique = true)
     public String getEmail() {
         return email;
     }
